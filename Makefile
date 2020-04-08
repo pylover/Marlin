@@ -9,7 +9,7 @@ sketch:
 	arduino-cli $(FLAGS) compile --fqbn $(FQBN) $(SKETCH)
 
 .PHONY: program
-program: sketch
+program:
 	arduino-cli $(FLAGS) upload -p /dev/ttyACM0 --fqbn $(FQBN) $(SKETCH)
 
 .PHONY: env
