@@ -966,10 +966,10 @@
 #define XY_PROBE_SPEED 1800
 
 // Feedrate (mm/m) for the first approach when double-probing (MULTIPLE_PROBING == 2)
-#define Z_PROBE_SPEED_FAST (8*60)
+#define Z_PROBE_SPEED_FAST (3*60)
 
 // Feedrate (mm/m) for the "accurate" probe of each point
-#define Z_PROBE_SPEED_SLOW (2*60)
+#define Z_PROBE_SPEED_SLOW (1*60)
 
 /**
  * Multiple Probing
